@@ -1,0 +1,58 @@
+/* See the box model for primary page elements */
+html {
+    border: 2px dotted red;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    border: 2px dotted orange;
+    margin: 10px 100px 0px 25px;
+}
+
+div {
+    border: 2px dotted green;
+}
+
+/* Get the H1 header to dispay an aqua background with a white margin inside its div */
+.div-one {
+    text-align: center;
+    font-size: 2rem;
+}
+
+h1 {
+    background-color: aqua;
+    margin: 25px;
+}
+
+/* get the first paragraph of the second div to have a light gray background with a left margin twice the size as the internal padding*/
+#p1 {
+    background-color: lightgray;
+    margin-left: 100px;
+    padding: 50px;
+    border: 2px solid black;
+}
+
+p {
+    font-size: 2rem;
+}
+
+/* get the span in the first paragraph to appear inline with a height respected at 30px, the text centered, a width of 200px, and a red border */
+.span-one {
+    display: inline-block;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    border: 2px solid red;
+    padding: 15px;
+}
+
+/* Get the third div to appear in the right hand corner of the screen */
+.div-three {
+    background-color: blanchedalmond;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    height: auto;
+    width: 200px;
+}
