@@ -1,0 +1,33 @@
+/* All elements have a red border */
+* {
+    border: 1px dotted red;
+}
+
+/* Flex Containers have an Orange border */
+.nav-list {
+    border: 2px solid orange;
+}
+
+/* Flex Items have a yellow border */
+.nav-item {
+    border: 2px solid yellow;
+}
+
+/* Flex Container */
+.nav-list {
+    display: flex;
+    flex-wrap: wrap; /* flex items are allowed to wrap to new lines */
+    gap: 1rem; /* helps add space between flex items */
+    justify-content: center; /* horizontal alignment: center flex items: space-between, space-evenly, space-around, flex-start, flex-end */
+    align-items: stretch; /* vertical alignment: center, flex-start, flex-end, stretch */
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Flex Items */
+.nav-item {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
